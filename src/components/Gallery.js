@@ -32,13 +32,7 @@ const Gallery = () => {
                     gap: '3rem',
                     lazyLoad: 'nearby',
                 }}
-                onMoved={(splide, newIndex) => {
-                    // eslint-disable-next-line
-                    console.log('moved', newIndex);
-
-                    // eslint-disable-next-line
-                    console.log('length', splide.length);
-                }}
+                
             >
                 {generateSlides().map(slide => (
                     <SplideSlide key={slide.src}>
