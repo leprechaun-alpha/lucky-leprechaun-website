@@ -1,0 +1,53 @@
+.mint-section {
+    display: flex;
+}
+
+.mint-about {
+    width: 40%;
+    padding: 30px;
+}
+
+.mint-interface {
+    width: 60%;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin: 10px;
+}
+
+.mint-adjustment-button {
+  border-radius: 100%;
+  border: none;
+  background-color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  :active {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+  }
+}
+
+#mint-adjust-display {
+    display: flex;
+    align-items: center;
+    .mint-adjust {
+        padding: 5px 20px;
+    } 
+
+}
+
+#mint-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

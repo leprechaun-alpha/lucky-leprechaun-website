@@ -1,0 +1,50 @@
+@import "../App.scss";
+
+#faq {
+    margin-top: 200px;
+}
+
+.qa {
+    border-bottom: 1px solid $var-grey;
+}
+
+.question {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    user-select: none;
+    .icon {
+        min-width: 20px;
+        padding-left: 10px;
+        height: fit-content;
+    }
+    .minus {
+        display: none;
+    }
+}
+
+.answer {
+    padding-bottom: 15px;
+    display: none;
+
+}
+
+
+#questions-answers {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-top: 1px solid $var-grey;
+
+}
+
+@media only screen and (max-width: 1000px) { 
+    #faq {
+        margin-top: 0px;
+    }
+  }

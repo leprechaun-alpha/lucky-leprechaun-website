@@ -1,0 +1,35 @@
+@import '../App.scss';
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 220px;
+}
+
+#about-text {
+    width: 50%;
+    text-align: left;
+    padding: 0px 10%;
+}
+#about-img  {
+    width: 50%;
+    img {
+        width: 100%;
+    max-width: 600px;
+    height: auto;}
+}
+
+@media only screen and (max-width: 1000px) {
+    #about {
+      flex-direction: column;
+      margin-bottom: 100px;
+    }
+    #about-text {
+        width: 100%;
+    }
+    #about-img {
+        width: 100%;
+    }
+  }
+

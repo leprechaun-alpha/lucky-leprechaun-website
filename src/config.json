@@ -1,0 +1,24 @@
+{
+    "CONTRACT_ADDRESS": "0xF96C8881A0ADA320bdc83f6BdFD6fA59AC85f1Ea",
+    "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xF96C8881A0ADA320bdc83f6BdFD6fA59AC85f1Ea",
+    "ABI_PATH": "./abi.json",
+    "NETWORK": {
+      "NAME": "Rinkeby",
+      "SYMBOL": "ETH",
+      "ID": 4
+    },
+    "NUMBER_OF_LOTTERIES": 3,
+    "NFT_NAME": "Lucky Leprechauns",
+    "SYMBOL": "LEP",
+    "MAX_SUPPLY": 10000,
+    "WEI_COST": 50000000000000000,
+    "DISPLAY_COST": 0.05,
+    "PAYOUT_RATIO": 0.5,
+    "GAS_LIMIT": 500000,
+    "MARKETPLACE": "Opeansea",
+    "TWITTER": "https://twitter.com/LuckyLepsNFT/",
+    "DISCORD": "https://discord.com/invite/GVUMBrsz/",
+    "MARKETPLACE_LINK": "https://opensea.io/collection/nerdy-coder-clones",
+    "SHOW_BACKGROUND": true
+  }
+  

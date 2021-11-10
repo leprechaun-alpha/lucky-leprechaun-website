@@ -1,0 +1,35 @@
+$border-radius: 6px !default;
+$var-orange: #FA3F18;
+$var-grey: #969696;
+$padding: 50px;
+
+.footer {
+    margin-bottom: 20px !important;
+}
+
+#footer-logo {
+    width: 50px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+#footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#footer-external-links {
+    display: flex;
+    font-size: xx-large;
+    cursor: pointer;
+    color: white;
+    li {
+      padding: 5px 20px;
+      list-style-type: none;
+      :hover {
+        color: $var-orange;
+      }
+    }
+}

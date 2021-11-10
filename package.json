@@ -3,12 +3,31 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chainlink/contracts": "^0.2.2",
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@metamask/detect-provider": "^1.2.0",
+    "@openzeppelin/contracts": "^4.3.2",
+    "@splidejs/react-splide": "^0.6.8",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "bootstrap": "^5.1.3",
+    "coingecko-api": "^1.0.10",
+    "css.gg": "^2.0.0",
+    "font-awesome": "^4.7.0",
+    "fs": "^0.0.1-security",
+    "node-sass": "^5.0.0",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.0.1",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.4",
+    "smoothscroll-polyfill": "^0.4.4",
+    "styled-components": "^5.3.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -34,5 +53,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-etherscan": "^2.1.7",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.6.7",
+    "hardhat-contract-sizer": "^2.1.1"
   }
 }

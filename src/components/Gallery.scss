@@ -1,0 +1,36 @@
+@import '@splidejs/splide/dist/css/splide.min.css';
+
+$var-orange: #FA3F18;
+$var-grey: #969696;
+
+  #gallery {
+    margin-bottom: 100px;
+  }
+
+  //splide
+
+  .splide__arrow {
+    background: black !important;
+    svg {
+      fill: $var-orange;
+    }
+  }
+  .splide__pagination__page.is-active {
+    background: $var-orange;
+  }
+  .splide__pagination__page {
+    background: white;
+    opacity: 1;
+  }
+
+  .splide__pagination {
+    bottom: -2em;
+  }
+
+  .splide__slide {
+    height: auto !important;
+    img {
+      border-radius: 50px;
+    width: 100%;
+  }}
+  

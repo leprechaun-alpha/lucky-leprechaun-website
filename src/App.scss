@@ -1,0 +1,77 @@
+$border-radius: 6px !default;
+$var-orange: #FA3F18;
+$var-grey: #969696;
+$padding: 50px;
+
+html {
+	scroll-behavior: smooth;
+}
+
+img {
+  user-select: none;
+}
+
+#app {
+  text-align: center;
+  color: $var-grey;
+  margin: 20px 0px;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+.border-link{
+  border: 1px solid $var-orange;
+  border-radius: $border-radius;
+  height: max-content;
+  width: max-content;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.orange {
+  color: $var-orange;
+}
+.strong {
+  font-weight: bold;
+}
+
+.white {
+  color: white;
+}
+
+.section {
+  margin: 10%;
+}
+
+.paragraph-medium {
+  line-height: 1.7;
+  color: $var-grey;
+}
+
+.left-text {
+  text-align: left;
+}
+
+hr {
+  border-color: $var-grey;
+  color: $var-grey;
+  background-color: $var-grey;
+}
+
+.hover-pointer {
+  cursor: pointer;
+}
+
+// HEADER
+
